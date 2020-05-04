@@ -1,0 +1,81 @@
+
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-wrap:row wrap;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    font-size:25pt;
+}
+
+.div {
+    float:left;
+}
+
+h2 {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+div {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.first {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    flex-basis:33%;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.second {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    align-items: center;
+
+}
+
+#user {
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:10px;
+    flex-basis:33.33%;
+}
+
+.third {
+    flex: 3;
+    flex-direction:column;
+    flex-wrap: wrap;
+    flex-basis:33.33%;
+    align-items:center;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background-color: tomato;
+}
+
+
+
+.col {
+    color: dodgerblue;
+}
+.selected {
+    background-color: tomato;
+    
+}
+.nocolor {
+    background-color: white;
+}
